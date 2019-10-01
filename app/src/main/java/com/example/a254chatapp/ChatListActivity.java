@@ -1,8 +1,5 @@
 package com.example.a254chatapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-
 import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,11 +7,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.nitin.pluralchat.R;
-
-import java.util.ArrayList;
-
-import messagelistscreen.MessageListActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import java.util.ArrayList;
 
